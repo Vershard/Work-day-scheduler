@@ -51,16 +51,11 @@ $(document).ready(function(){
 
     $(".save-btn").on('click', function(event){
         event.preventDefault();
-        console.log("Yo we clicked", $(`textarea[number=${$(this).attr('name')}]`).val());
+        console.log("You clicked!", $(`textarea[number=${$(this).attr('name')}]`).val());
 
-    })
-
-
-
-
-
-
-
+    }) 
+ 
+    
 
 
 })
